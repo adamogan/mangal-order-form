@@ -1,0 +1,1366 @@
+[
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "European cucumbers",
+"external": "Cucumbers",
+"unit": "case",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "Plum tomatoes",
+"external": "Tomatoes",
+"unit": "case",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "Red pepper",
+"external": "Red pepper",
+"unit": "case",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "Yellow pepper",
+"external": "Yellow pepper",
+"unit": "case",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "Green pepper",
+"external": "Green pepper",
+"unit": "case",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "Eggplant",
+"external": "Eggplant",
+"unit": "case",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "Carrots",
+"external": "Carrots",
+"unit": "case",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "Green cabbage",
+"external": "Cabbage",
+"unit": "case",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "Green beans",
+"external": "Bean green",
+"unit": "case",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "Beets",
+"external": "Beets",
+"unit": "case",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "Green onion",
+"external": "Green onion",
+"unit": "bunch",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "Celery",
+"external": "Celery",
+"unit": "bunch",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "Cilantro",
+"external": "Cilantro",
+"unit": "bunch",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "Dill",
+"external": "Herb dill",
+"unit": "bunch",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "Lettuce",
+"external": "Lettuce",
+"unit": "case",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "Red onion",
+"external": "Onion red",
+"unit": "case",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "White onion",
+"external": "Onion white",
+"unit": "case",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "Yellow onion",
+"external": "Onion yellow",
+"unit": "case",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "Parsley",
+"external": "Parsley",
+"unit": "bunch",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "Potato",
+"external": "Potato",
+"unit": "case",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "Cauliflower",
+"external": "Cauliflower",
+"unit": "case",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "Lemon",
+"external": "Lemon",
+"unit": "case",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "Jalapeño",
+"external": "Jalapeño",
+"unit": "case",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Produce Partner",
+"department": "kitchen",
+"internal": "Peeled garlic",
+"external": "Peeled garlic",
+"unit": "pack",
+"order_days": [
+"Wednesday",
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Dried chickpeas",
+"external": "BEAN GARBANZO 25LB",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Canned chickpeas",
+"external": "BEAN GARBANZO SOLE",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Dried red lentils",
+"external": "BEAN RED LENTIL 25LB",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "front",
+"internal": "Ginger ale (C-DRU), 24 × 12 oz",
+"external": "C-DRU  GINGER ALE 24/12Z",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "front",
+"internal": "Mexican Coca-Cola, 355 ml",
+"external": "COKE DE MEXICO 355ML",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "front",
+"internal": "Diet Coke cans, 12 oz",
+"external": "COKE DIET CANS 12Z",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "front",
+"internal": "Coke Zero cans, 12 oz",
+"external": "COKE ZERO CANS 12Z",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "front",
+"internal": "Purified water (NPL), 20 oz",
+"external": "NPL PURIFIED WATER 20OZ",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "front",
+"internal": "San Pellegrino (GUS), 750 ml",
+"external": "SAN PELLEGRINO GUS 750ML",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Unsalted solid butter (JF), 1 lb",
+"external": "BTR UNSLTD SLD JF 1LB",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Feta cheese (CAME MARM), 5 lb",
+"external": "CHS FETA CAME MARM 5LB",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Bulk sour cream (IF), 32 lb",
+"external": "SOUR CREAM BULK IF 32LB",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Sour cream (JF), 4 × 5 lb",
+"external": "SOUR CREAM JF 4/5LB",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Degreaser (FORMIRA), 1-GAI",
+"external": "DEGREASER FORMIRA 1-GAI",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Mistolin lavender cleaner, 1 gal",
+"external": "MISTOLIN LAVENDER 1-GL",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "CloroxPro germicidal bleach, 121 oz",
+"external": "CLOROXPRO GERMICIDAL BLEACH 121OZ",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Clorox regular disinfecting bleach, 3 × 121 oz",
+"external": "CLOROX DISINF BLEACH REG 121OZх3",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Windex",
+"external": "WINDEX",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Baking soda (CLBG), 5 lb",
+"external": "BAKING SODA CLBG 5LB",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Goya white vinegar, 128 oz",
+"external": "GOYA WHITE VINEGAR 128OZ",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Ketchup jug (CQ), 114 oz",
+"external": "KETCHUP  CQ JUG 114OZ",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Extra-heavy mayonnaise (RS), 4 gal tub",
+"external": "MAYO EX HVY TUB RS 4GAL",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Heinz ketchup packets, 750 count",
+"external": "PC KETCHUP HEINZ 750CT",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Pepperoncini (SI), 1 gal",
+"external": "PEPPERONCINI SI GAL",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "ReaLemon lemon juice, 1 gal",
+"external": "REALLEMON JUICE GAL",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Skin-on French fries, 3/8 in (RIGC), 30 lb",
+"external": "FF SKINON 3/8 RIGC 30LB",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Canola oil (CRM CHF), 35 lb",
+"external": "OIL CANOLA CRM CHF 35LB",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Extra virgin olive oil (SI), 3 liters",
+"external": "OIL OLIVE EV SI 3LTR",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Soybean salad oil (CQ), 35 lb",
+"external": "OIL SOY SALAD CQ 35LB",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Viva / Divo blended oil, 1 gal",
+"external": "OIL VIVA / DIVO BLEND GAL",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Viva blended oil, 25%, 1 gal",
+"external": "OIL VIVA BEND 25% 1 GAL",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Ketchup (Chefs Quality), #10 can",
+"external": "KETCHUP CHEFS QLTY #10",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Sweet Baby Ray’s Original barbecue sauce, 1 gal",
+"external": "SAUCE BBQ SBR ORIG GAL",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Tomato sauce (CO), #10 can",
+"external": "SAUCE TOMATO CO #10",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Marinara sauce (REDPK), #10 can",
+"external": "SCE MARINARA REDPK #10",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Isabella tomato paste, #10 can",
+"external": "TOM PASTE ISABELLA #10",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Frozen branzino, 3/4–1 lb",
+"external": "FR7 BRONZ 3/4-1LB",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Salmon fillet, 3–4 lb, random weight",
+"external": "SALMON FILLET  3-4 R/W",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Chopped onion (RE), 3 lb",
+"external": "RE ONION CHODDEN 3LB",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Spanish paprika (BS), 4.5 lb",
+"external": "BS PAPRIKA-SPANISH 4.5L",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Seasoned salt (ES), 7 lb",
+"external": "ES SEASONED SALT 7LB",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Complete seasoning (BS), 6 lb",
+"external": "BS SEASONING COMPL 6LB",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Ground turmeric (BS), 16 oz",
+"external": "BS TUMERIC-GROUND 16OZ",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Whole oregano (BS), 1.35 lb",
+"external": "BS OREGANO WHOEE 1.35#",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Montreal steak seasoning, 7 lb",
+"external": "MONREAL STK SEAS 7LB",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Granulated salt (DC), 25 lb",
+"external": "SALT GRANULATED DC 25LB",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Ground black pepper (SP), 5 lb",
+"external": "SP BLACK PEPP GRND 5LB",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Cayenne pepper (SP, CO), 5 lb",
+"external": "SP CAYENNE PEP CO SLB",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Crushed red pepper (SP, CQ), 3.75 lb",
+"external": "SP RED PEP CRSH CQ 3.75LB",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "front",
+"internal": "Brown shopping bag, 14 × 10 × 16 in",
+"external": "BAG 14x10x16 SHP BR",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "front",
+"internal": "Brown shopping bag, 10 × 7 × 12 in, 250 count",
+"external": "BAG SHP BR 10x7x12 250 CT",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Food wrap film (SUNSE), 11 in × 2,000 ft roll",
+"external": "FILM 11x2000  SUNSE ROLL",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Sunset food wrap film, 18 in × 2,000 ft, 18",
+"external": "FILM 18X2000 SUNSET 18",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Heavy-duty aluminum foil, 12 in × 500 ft roll",
+"external": "FOIL 12X500HD ROLL",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Cooking spray for pans (CQ)",
+"external": "WATER PAN SPRAY CQ",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Restaurant Depot",
+"department": "kitchen",
+"internal": "Panko breadcrumbs",
+"external": "PANKO BREAD CRUMBS",
+"unit": "pack",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Macar",
+"department": "front",
+"internal": "Anatolia Premium pistachio baklava, 5.5 lb (2 half-size trays)",
+"external": "Anatolia Premium Baklava w/Pist 5.5 lb (Half Size Tray x 2)",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Macar",
+"department": "front",
+"internal": "Anatolia Premium walnut baklava, 5.5 lb (2 half-size trays)",
+"external": "Anatolia Premium Walnut Baklava 5.5lb (Half Size Tray x 2)",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Macar",
+"department": "front",
+"internal": "Anatolia Premium pistachio roll, 5.5 lb (2 half-size trays)",
+"external": "Anatolia Premium Roll w/Pistachio 5.5lb (Half Size Tray x 2)",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Macar",
+"department": "front",
+"internal": "Karoun yogurt drink, 24 × 1 pint",
+"external": "Karoun Yogurt Drink 24/1Pt",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Macar",
+"department": "kitchen",
+"internal": "Mihan Super Basmati Sella rice, 4 × 10 lb",
+"external": "Mihan Super Basmati Sella Rice 4x10 lb",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Macar",
+"department": "kitchen",
+"internal": "Sera pickled Middle Eastern cucumbers (30–35), 2,975 ml",
+"external": "Sera Pickled Middle Eastern Cucumbers (30-35) x 2975 ml",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "kitchen",
+"internal": "All-purpose lavender cleaner, 4 gal/case",
+"external": "All Purpose Cleaner (LAVENDER) - 4 GALLONS /CASE",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "kitchen",
+"internal": "Bleach, 3%, 6 gal/case",
+"external": "BLEACH 3% 6 GALLONS /CASE",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "kitchen",
+"internal": "Dishwashing liquid, 4 gal/case",
+"external": "DISHWASHING 4 GALLONS /CASE",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "kitchen",
+"internal": "Stainless steel scrubbing pads",
+"external": "Stainless Steel Scrubbing Pads",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "kitchen",
+"internal": "Regular-duty powder-free nitrile gloves, 4 mil (XL)",
+"external": "4 Mil - Regular Duty Powder Free Nitrile Gloves (XL)",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "front",
+"internal": "Kraft paper shopping bag, medium, 10 × 6.75 × 12 in",
+"external": "Medium Shopping Paper Bag 10x6.75x12\" Kraft color",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "front",
+"internal": "Kraft paper shopping bag, wide, 12 × 9 × 15 in",
+"external": "Wide Shopping Paper Bag 12x9x15\" - Kraft color",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "front",
+"internal": "Kraft SOS paper bag, 4 lb",
+"external": "#4lb Kraft paper bag - SOS Bag",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "front",
+"internal": "White 2-ply dinner napkin, 15 × 17 in",
+"external": "White 2-Ply 15\" x 17\" Dinner Napkin",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "front",
+"internal": "Kraft paper towel roll, 350 sheets, 12 rolls/case",
+"external": "ROLL TOWEL KRAFT 350 Sheet 12 ROLLS/ CASE",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "front",
+"internal": "Clear soufflé / portion / ramekin cup, 2 oz, 62 mm",
+"external": "2oz Clear Souffle / Portion / Ramiken Cup-62mm",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "front",
+"internal": "Round fiber bowl, 16 oz",
+"external": "16oz Round Fiber Bowl",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "front",
+"internal": "Rectangular fiber container, 24 oz",
+"external": "24oz Rectangular Fiber Container",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "front",
+"internal": "Square fiber bowl, 32 oz",
+"external": "32oz Square Fiber Bowl",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "front",
+"internal": "Square fiber bowl, 24 oz",
+"external": "24oz Square Fiber Bowl",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "front",
+"internal": "Square fiber container, 3 compartments, 48 oz",
+"external": "48oz 3-Comp Square Fiber Container",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "front",
+"internal": "Heavy-duty PP deli container base, 16 oz",
+"external": "16oz PP Deli Container Base Heavy Duty",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "front",
+"internal": "Clear dome lid for 16 oz round bowl",
+"external": "Clear Dome Lid - 16oz Round Bowl",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "front",
+"internal": "Clear lid for 24/32/48 oz square fiber bowl",
+"external": "Clear Lid - 24/32/48oz Square Fiber Bowl",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "front",
+"internal": "Clear lid for 24/28-2-C/32 oz rectangular fiber container",
+"external": "Clear Lid - 24/28-2-C/ 32oz Rectangular Fiber Container",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "front",
+"internal": "Clear lid for 48 oz square fiber container",
+"external": "Clear Lid - 48oz Square Fiber Container",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "front",
+"internal": "Heavy-duty lids for 8–32 oz deli containers",
+"external": "Lids for 8-32oz Deli Container Heavy Duty",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "front",
+"internal": "4-in-1 wrapped heavy-duty PP cutlery set (fork, knife, spoon, napkin), 500 sets/carton, white/black",
+"external": "4 IN 1 WRAPPED PP HEAVY DUTY SET (F,K,S,N) / 500 pcs/ ctnPP - WHITE/BLACK",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "front",
+"internal": "#1 Kraft microwave-safe folded takeout box, 4-3/8 × 3-1/2 × 2-1/2 in, 26 fl oz, 450 pieces",
+"external": "#1 Kraft Microwavable Folded Takeout Box - 4-3/8\" x 3 1/2\" x 2 1/2\" - 26 fl oz Capacity - 450 pieces",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "front",
+"internal": "#8 Kraft microwave-safe folded takeout box, 6 × 4-5/8 × 2-1/2 in, 45 fl oz, 300 pieces",
+"external": "#8 Kraft Microwavable Folded Takeout Box - 6\" x 4 5/8\" x 2 1/2\" - 45 fl oz Capacity - 300 pcs",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Simply Pack",
+"department": "front",
+"internal": "Clear cup, 9 oz, 92 mm rim",
+"external": "09oz Clear Cup - 92mm Rim",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Armbread",
+"department": "kitchen",
+"internal": "Large lavash",
+"external": "lavash big",
+"unit": "pack",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Macar",
+"department": "kitchen",
+"internal": "Small lavash",
+"external": "lavash small",
+"unit": "case",
+"order_days": [
+"Sunday"
+]
+},
+{
+"supplier": "Mirad",
+"department": "kitchen",
+"internal": "Kibbeh",
+"external": "kibbeh",
+"unit": "pack",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Ronen Best Value",
+"department": "kitchen",
+"internal": "Pita",
+"external": "pita",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Ronen Best Value",
+"department": "kitchen",
+"internal": "Tahini",
+"external": "tahini",
+"unit": "pack",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Quirsh",
+"department": "kitchen",
+"internal": "Halal chicken thighs",
+"external": "Fsh Chkn Thigh Meat Halal Cvp",
+"unit": "case",
+"order_days": [
+"Monday"
+]
+},
+{
+"supplier": "Quirsh",
+"department": "kitchen",
+"internal": "Halal chicken breast",
+"external": "Fsh Chkn Brst B/S Halal Cvp jumbo",
+"unit": "case",
+"order_days": [
+"Monday"
+]
+},
+{
+"supplier": "Quirsh",
+"department": "kitchen",
+"internal": "Halal boneless lamb leg",
+"external": "Frzn Lamb Leg Bnls BRN AUS",
+"unit": "case",
+"order_days": [
+"Monday"
+]
+},
+{
+"supplier": "Quirsh",
+"department": "kitchen",
+"internal": "Halal lamb chops",
+"external": "Frzn Lamb Rack Fren 12/14 NZ",
+"unit": "case",
+"order_days": [
+"Monday"
+]
+},
+{
+"supplier": "Quirsh",
+"department": "kitchen",
+"internal": "Halal Australian beef ribeye",
+"external": "Fsh Ribeye Lipon GrainFed AUS",
+"unit": "case",
+"order_days": [
+"Monday"
+]
+},
+{
+"supplier": "Quirsh",
+"department": "kitchen",
+"internal": "Halal flat round beef",
+"external": "Fsh Flats CH Angus",
+"unit": "case",
+"order_days": [
+"Monday"
+]
+},
+{
+"supplier": "Quirsh",
+"department": "kitchen",
+"internal": "Halal beef brisket",
+"external": "Fsh Beef Brisket CH Angus",
+"unit": "case",
+"order_days": [
+"Monday"
+]
+},
+{
+"supplier": "Quirsh",
+"department": "kitchen",
+"internal": "Ground beef",
+"external": "Fsh Ground Beef Fine 73/27 Halal",
+"unit": "case",
+"order_days": [
+"Monday"
+]
+},
+{
+"supplier": "Khinkali",
+"department": "kitchen",
+"internal": "Beef khinkali (4)",
+"external": "Khinkali beef (4)",
+"unit": "pack",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Khinkali",
+"department": "kitchen",
+"internal": "Cheese cigars",
+"external": "Cheese cigars",
+"unit": "pack",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Victoriya",
+"department": "front",
+"internal": "Walnut honey cake",
+"external": "Honey cake wallnut",
+"unit": "pack",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Victoriya",
+"department": "front",
+"internal": "Berry honey cake",
+"external": "Honey cake berry",
+"unit": "pack",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Victoriya",
+"department": "front",
+"internal": "Chocolate honey cake",
+"external": "Honey cake chocolat",
+"unit": "pack",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Victoriya",
+"department": "front",
+"internal": "Napoleon",
+"external": "Napoleon",
+"unit": "pack",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "FRS Group",
+"department": "front",
+"internal": "Pear Lemonade",
+"external": "Pear Lemonade",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "FRS Group",
+"department": "front",
+"internal": "Taragon Lemonade",
+"external": "Taragon Lemonade",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+},
+{
+"supplier": "Yamliet",
+"department": "kitchen",
+"internal": "Charcoal",
+"external": "Charcoal",
+"unit": "case",
+"order_days": [
+"Wednesday"
+]
+}
+]

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Order form</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; margin: 0; padding: 12px 12px 84px;
+         background: var(--tg-theme-bg-color, #fff); color: var(--tg-theme-text-color, #000); }
+  h2 { font-size: 16px; margin: 2px 0 2px; }
+  .sub { color: var(--tg-theme-hint-color, #888); font-size: 12.5px; margin-bottom: 10px; }
+  table { width: 100%; border-collapse: collapse; }
+  th { text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: .04em;
+       color: var(--tg-theme-hint-color, #888); padding: 6px 4px; position: sticky; top: 0;
+       background: var(--tg-theme-bg-color, #fff); }
+  td { padding: 6px 4px; border-top: 1px solid rgba(128,128,128,.18); vertical-align: middle; }
+  td.name { font-size: 13.5px; }
+  td.name .unit { display: block; font-size: 11.5px; color: var(--tg-theme-hint-color, #888); }
+  td.num { width: 64px; }
+  input { width: 100%; box-sizing: border-box; font-size: 16px; padding: 7px 6px; text-align: center;
+          border: 1.5px solid var(--tg-theme-hint-color, #bbb); border-radius: 8px;
+          background: var(--tg-theme-secondary-bg-color, #f4f4f5); color: inherit; }
+  input:focus { outline: none; border-color: var(--tg-theme-button-color, #2481cc); }
+  .err { color: #e53935; font-size: 13px; min-height: 18px; margin-top: 10px; }
+  button.save { position: fixed; left: 12px; right: 12px; bottom: 12px; font-size: 17px; font-weight: 600;
+          padding: 14px; border: none; border-radius: 10px; cursor: pointer;
+          background: var(--tg-theme-button-color, #2481cc); color: var(--tg-theme-button-text-color, #fff); }
+</style>
+</head>
+<body>
+<h2 id="title">Order</h2>
+<div class="sub" id="subtitle"></div>
+<table>
+  <thead><tr><th>Item</th><th style="width:64px">Stock</th><th style="width:64px">Order</th></tr></thead>
+  <tbody id="rows"></tbody>
+</table>
+<div class="err" id="err"></div>
+<button class="save" id="save">✅ Save</button>
+<script>
+  var tg = window.Telegram.WebApp;
+  tg.ready();
+  var q = new URLSearchParams(location.search);
+  var dept = q.get('dept') || 'kitchen';
+  var supplier = q.get('supplier') || '';
+  var day = q.get('day') || 'Sunday';
+  var loc = q.get('loc') || '';
+  document.getElementById('title').textContent = supplier;
+  document.getElementById('subtitle').textContent =
+    (loc ? loc + ' · ' : '') + dept + ' · ' + day + ' — fill in stock and order, then Save. Blank = leave unchanged.';
+  var prefill = {};
+  (q.get('vals') || '').split(',').forEach(function (p) {
+    var a = p.split('.'); if (a.length === 3) prefill[a[0]] = { s: a[1], o: a[2] };
+  });
+  var items = [];
+  fetch('catalog.json').then(function (r) { return r.json(); }).then(function (cat) {
+    items = cat.filter(function (it) {
+      return it.department === dept && it.supplier === supplier && it.order_days.indexOf(day) >= 0;
+    });
+    var tb = document.getElementById('rows');
+    items.forEach(function (it, i) {
+      var tr = document.createElement('tr');
+      var pf = prefill[i] || {};
+      tr.innerHTML = '<td class="name"></td>' +
+        '<td class="num"><input type="number" inputmode="numeric" min="0" step="1" id="s' + i + '"></td>' +
+        '<td class="num"><input type="number" inputmode="numeric" min="0" step="1" id="o' + i + '"></td>';
+      tr.querySelector('.name').innerHTML = '';
+      tr.querySelector('.name').appendChild(document.createTextNode(it.internal));
+      var u = document.createElement('span'); u.className = 'unit'; u.textContent = it.unit;
+      tr.querySelector('.name').appendChild(u);
+      if (pf.s !== undefined) tr.querySelector('#s' + i).value = pf.s;
+      if (pf.o !== undefined) tr.querySelector('#o' + i).value = pf.o;
+      tb.appendChild(tr);
+    });
+  }).catch(function () {
+    document.getElementById('err').textContent = 'Could not load the item list. Close and try again.';
+  });
+  function submit() {
+    var entries = [];
+    for (var i = 0; i < items.length; i++) {
+      var s = document.getElementById('s' + i).value.trim();
+      var o = document.getElementById('o' + i).value.trim();
+      if (s === '' && o === '') continue;
+      if ((s !== '' && !/^\d+$/.test(s)) || (o !== '' && !/^\d+$/.test(o))) {
+        document.getElementById('err').textContent = 'Only whole numbers (0 or more). Check row ' + (i + 1) + '.';
+        return;
+      }
+      entries.push({ i: i, s: s === '' ? null : parseInt(s, 10), o: o === '' ? null : parseInt(o, 10) });
+    }
+    tg.sendData(JSON.stringify({ type: 'table', dept: dept, supplier: supplier, entries: entries }));
+    tg.close();
+  }
+  document.getElementById('save').addEventListener('click', submit);
+  try { tg.MainButton.setText('✅ Save'); tg.MainButton.show(); tg.MainButton.onClick(submit); } catch (e) {}
+</script>
+</body>
+</html>
