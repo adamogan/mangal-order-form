@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Stock / Order</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; margin: 0; padding: 16px;
+         background: var(--tg-theme-bg-color, #ffffff); color: var(--tg-theme-text-color, #000); }
+  h2 { font-size: 17px; margin: 0 0 2px; }
+  .unit { color: var(--tg-theme-hint-color, #888); font-size: 13px; margin-bottom: 18px; }
+  label { display: block; font-size: 13px; font-weight: 600; margin: 14px 0 6px;
+          color: var(--tg-theme-hint-color, #666); text-transform: uppercase; letter-spacing: .04em; }
+  input { width: 100%; box-sizing: border-box; font-size: 20px; padding: 12px;
+          border: 1.5px solid var(--tg-theme-hint-color, #bbb); border-radius: 10px;
+          background: var(--tg-theme-secondary-bg-color, #f4f4f5); color: inherit; }
+  input:focus { outline: none; border-color: var(--tg-theme-button-color, #2481cc); }
+  .err { color: #e53935; font-size: 13px; min-height: 18px; margin-top: 10px; }
+  button.save { width: 100%; margin-top: 14px; font-size: 17px; font-weight: 600; padding: 14px;
+          border: none; border-radius: 10px; cursor: pointer;
+          background: var(--tg-theme-button-color, #2481cc); color: var(--tg-theme-button-text-color, #fff); }
+</style>
+</head>
+<body>
+<h2 id="item">Item</h2>
+<div class="unit" id="unit"></div>
+<label for="stock">Stock</label>
+<input id="stock" type="number" inputmode="numeric" min="0" step="1" placeholder="0">
+<label for="order">Order</label>
+<input id="order" type="number" inputmode="numeric" min="0" step="1" placeholder="0">
+<div class="err" id="err"></div>
+<button class="save" id="save">Save</button>
+<script>
+  var tg = window.Telegram.WebApp;
+  tg.ready();
+  var q = new URLSearchParams(location.search);
+  document.getElementById('item').textContent = q.get('item') || 'Item';
+  document.getElementById('unit').textContent = q.get('unit') ? ('Unit: ' + q.get('unit')) : '';
+  function submit() {
+    var s = document.getElementById('stock').value.trim();
+    var o = document.getElementById('order').value.trim();
+    var err = document.getElementById('err');
+    if (s === '' || o === '' || !/^\d+$/.test(s) || !/^\d+$/.test(o)) {
+      err.textContent = 'Enter both numbers: stock and order (0 or more).';
+      return;
+    }
+    tg.sendData(JSON.stringify({ stock: parseInt(s, 10), order: parseInt(o, 10) }));
+    tg.close();
+  }
+  document.getElementById('save').addEventListener('click', submit);
+  try {
+    tg.MainButton.setText('Save');
+    tg.MainButton.show();
+    tg.MainButton.onClick(submit);
+  } catch (e) {}
+  document.getElementById('stock').focus();
+</script>
+</body>
+</html>
